@@ -20,7 +20,9 @@
         "yiisoft/yii2-swiftmailer": "*",
         "almasaeed2010/adminlte": "~2.0",
         "shmilyzxt/yii2-kartikcrud": "*",
-        "yiisoft/yii2-redis": "^2.0"
+        "yiisoft/yii2-redis": "^2.0",
+        "dmstr/yii2-adminlte-asset": "2.*",
+        "yiisoft/yii2-authclient": "^2.1"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

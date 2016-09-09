@@ -16,17 +16,23 @@ class ComposerStaticInit5aaba40cae70ec34f76cb554187ae595
         array (
             'yii\\swiftmailer\\' => 16,
             'yii\\redis\\' => 10,
+            'yii\\httpclient\\' => 15,
             'yii\\gii\\' => 8,
             'yii\\faker\\' => 10,
             'yii\\debug\\' => 10,
             'yii\\composer\\' => 13,
             'yii\\codeception\\' => 16,
             'yii\\bootstrap\\' => 14,
+            'yii\\authclient\\' => 15,
             'yii\\' => 4,
         ),
         's' => 
         array (
             'shmilyzxt\\kartikcrud\\' => 21,
+        ),
+        'r' => 
+        array (
+            'rmrevin\\yii\\fontawesome\\' => 24,
         ),
         'k' => 
         array (
@@ -61,6 +67,10 @@ class ComposerStaticInit5aaba40cae70ec34f76cb554187ae595
             'kartik\\alert\\' => 13,
             'kartik\\affix\\' => 13,
         ),
+        'd' => 
+        array (
+            'dmstr\\' => 6,
+        ),
         'c' => 
         array (
             'cebe\\markdown\\' => 14,
@@ -79,6 +89,10 @@ class ComposerStaticInit5aaba40cae70ec34f76cb554187ae595
         'yii\\redis\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-redis',
+        ),
+        'yii\\httpclient\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/yii2-httpclient',
         ),
         'yii\\gii\\' => 
         array (
@@ -104,6 +118,10 @@ class ComposerStaticInit5aaba40cae70ec34f76cb554187ae595
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-bootstrap',
         ),
+        'yii\\authclient\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/yii2-authclient',
+        ),
         'yii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
@@ -111,6 +129,10 @@ class ComposerStaticInit5aaba40cae70ec34f76cb554187ae595
         'shmilyzxt\\kartikcrud\\' => 
         array (
             0 => __DIR__ . '/..' . '/shmilyzxt/yii2-kartikcrud',
+        ),
+        'rmrevin\\yii\\fontawesome\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/rmrevin/yii2-fontawesome',
         ),
         'kartik\\widgets\\' => 
         array (
@@ -232,6 +254,10 @@ class ComposerStaticInit5aaba40cae70ec34f76cb554187ae595
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-affix',
         ),
+        'dmstr\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dmstr/yii2-adminlte-asset',
+        ),
         'cebe\\markdown\\' => 
         array (
             0 => __DIR__ . '/..' . '/cebe/markdown',
@@ -243,6 +269,13 @@ class ComposerStaticInit5aaba40cae70ec34f76cb554187ae595
     );
 
     public static $prefixesPsr0 = array (
+        'c' => 
+        array (
+            'cebe\\gravatar\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/cebe/yii2-gravatar',
+            ),
+        ),
         'H' => 
         array (
             'HTMLPurifier' => 
